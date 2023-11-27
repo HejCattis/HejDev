@@ -1,6 +1,8 @@
+import Hero from "../components/Hero"
+
 const Startpage = () => {
   return (
-	<div>Startpage</div>
+	<Hero />
   )
 }
 export default Startpage

@@ -10,10 +10,10 @@
 
 @layer base {
 	h1 {
-	  @apply text-2xl;
+	  @apply text-5xl text-purple font-semibold;
 	}
 	h2 {
-	  @apply text-xl;
+	  @apply text-2xl;
 	}
 }
 
