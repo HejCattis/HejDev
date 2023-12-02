@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-
+//FIXME fixa mobil anpassning
 const Navbar = () => {
   return (
 	<nav className="bg-white/75 fixed top-0 border-purple border-b-2 w-full py-2 z-10">
