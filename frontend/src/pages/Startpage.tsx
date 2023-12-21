@@ -1,4 +1,5 @@
 import About from "../components/About"
+import CodeSection from "../components/CodeSection"
 import Hero from "../components/Hero"
 
 const Startpage = () => {
@@ -6,6 +7,7 @@ const Startpage = () => {
 	<section className="mx-4">
 		<Hero />
 		<About />
+		<CodeSection />
 	</section>
   )
 }

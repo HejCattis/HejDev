@@ -16,7 +16,7 @@ const Hero = () => {
 					<p className="text-center">Fullstack webbutvecklare med en touch av designer.</p>
 				</div>
 			</section>
-			<MdKeyboardArrowDown size={35} className='mx-auto text-purple' />
+			<MdKeyboardArrowDown size={35} className='mx-auto text-purple md:mt-28 lg:mt-48' />
 		</React.Fragment>
 	);
 };

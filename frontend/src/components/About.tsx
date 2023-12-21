@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 const About = () => {
 	return (
 		<section id='about' className='mt-10'>
-			<div className=''>
-				<div className='flex justify-center'>
+			<div className='flex flex-col md:flex-row md:justify-around md:items-start'>
+				<div className='flex justify-center '>
 					<svg
 						className='w-64 fill-pink'
 						viewBox='0 0 200 187'
@@ -35,20 +35,20 @@ const About = () => {
 						</g>
 					</svg>
 				</div>
-				<div className='lg:w-1/2 px-4'>
-					<h2 className='font-semibold text-2xl mt-4 text-center'>
+				<div className='px-4 md:w-1/2'>
+					<h2 className='font-semibold text-2xl mt-4 text-center md:text-left'>
 						Det här är jag:
 					</h2>
-					<h3 className='text-xl mt-2 text-center'>
+					<h3 className='text-xl mt-2 text-center md:text-left'>
 						Nästa stora stjärna inom backendutveckling.
 					</h3>
-					<p className='mt-2 mb-10 text-center'>
+					<p className='mt-2 mb-10 text-center md:text-left'>
 						Jag närmar mig detta mål genom min nuvarande LIA-praktik på Quiqly.
 						Där breddar jag ständigt min kompetens inom backend, och tillsammans
 						med teamet arbetar vi mot att skapa nästa generations
-						betalningssystem för tidningsbranschen.
+						betalningslösning för tidningsbranschen.
 					</p>
-					<div className='flex flex-col gap-4 items-center mb-12'>
+					<div className='flex justify-center gap-4 items-center md:justify-start mb-12'>
 						<Link
 							to='/#contact'
 							className='btn-border w-[200px]'
@@ -64,11 +64,12 @@ const About = () => {
 							Mitt CV
 						</a>
 					</div>
-
-					<div className='relative mt-4 lg:mt-6'>
+				</div>
+			</div>
+			<div className='relative px-4 md:px-0 mt-4 md:mt-6 md:max-w-3xl mx-auto lg:flex lg:items-center lg:justify-between'>
 						<svg
 							xmlns='http://www.w3.org/2000/svg'
-							className='absolute text-pink opacity-25 h-20 -top-8 -left-8 -z-10'
+							className='absolute text-pink opacity-25 h-20 -top-8 -left-4 md:-left-8 -z-10'
 							viewBox='0 0 24 24'
 						>
 							<path
@@ -76,18 +77,16 @@ const About = () => {
 								d='m15 17l2-4h-4V6h7v7l-2 4h-3Zm-9 0l2-4H4V6h7v7l-2 4H6Z'
 							/>
 						</svg>
-						<p className='mb-10 text-center'>
+						<p className='mb-10 lg:mb-0 text-center lg:max-w-lg lg:text-left'>
 						Jag är på <strong className='font-semibold'>jakt</strong> efter ett företag i framkant som <strong className='font-semibold'>strävar efter att bli bäst</strong> i sin bransch genom nya, innovativa idéer tillsammans med mig och ett engagerat och drivet team.
 						</p>
 						<Link
 							to='/#contact'
-							className='flex justify-center'
+							className='hidden md:flex justify-center'
 						>
-							<button className="btn w-[200px]">Intresserad?</button>
+							<button className="btn w-[200px] lg:w-fit lg:px-10 lg:h-fit">Intresserad?</button>
 						</Link>
 					</div>
-				</div>
-			</div>
 		</section>
 	);
 };
