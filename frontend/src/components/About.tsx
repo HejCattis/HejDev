@@ -37,7 +37,7 @@ const About = () => {
 				</div>
 				<div className='px-4 md:w-1/2'>
 					<h2 className='font-semibold text-2xl mt-4 text-center md:text-left'>
-						Det här är jag:
+						Det här är jag
 					</h2>
 					<h3 className='text-xl mt-2 text-center md:text-left'>
 						Nästa stora stjärna inom backendutveckling.
