@@ -1,5 +1,6 @@
 import About from '../components/About';
 import CodeSection from '../components/CodeSection';
+import CurrentWork from '../components/CurrentWork';
 import Experience from '../components/Experience';
 import Hero from '../components/Hero';
 import Qualification from '../components/Qualification';
@@ -12,6 +13,7 @@ const Startpage = () => {
             <CodeSection />
             <Experience />
             <Qualification />
+            <CurrentWork />
         </section>
     );
 };
