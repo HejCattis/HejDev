@@ -1,5 +1,6 @@
 import About from "../components/About"
 import CodeSection from "../components/CodeSection"
+import Experience from "../components/Experience"
 import Hero from "../components/Hero"
 
 const Startpage = () => {
@@ -8,6 +9,7 @@ const Startpage = () => {
 		<Hero />
 		<About />
 		<CodeSection />
+		<Experience />
 	</section>
   )
 }
