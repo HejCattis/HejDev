@@ -36,13 +36,13 @@ const About = () => {
 					</svg>
 				</div>
 				<div className='px-4 md:w-1/2'>
-					<h2 className='font-semibold text-2xl mt-4 text-center md:text-left'>
+					<h2 className='font-semibold text-2xl mt-6 md:mt-4 text-center md:text-left'>
 						Det här är jag:
 					</h2>
-					<h3 className='text-xl mt-2 text-center md:text-left'>
+					<h3 className='text-xl mt-4 md:mt-2 text-center md:text-left'>
 						Nästa stora stjärna inom backendutveckling.
 					</h3>
-					<p className='mt-2 mb-10 text-center md:text-left'>
+					<p className='mt-4 md:mt-2 mb-10 text-center md:text-left'>
 						Jag närmar mig detta mål genom min nuvarande LIA-praktik på Quiqly.
 						Där breddar jag ständigt min kompetens inom backend, och tillsammans
 						med teamet arbetar vi mot att skapa nästa generations

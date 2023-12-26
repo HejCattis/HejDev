@@ -5,7 +5,7 @@ import Hero from "../components/Hero"
 
 const Startpage = () => {
   return (
-	<section className="mx-4">
+	<section className="mx-4 md:mx-10">
 		<Hero />
 		<About />
 		<CodeSection />
