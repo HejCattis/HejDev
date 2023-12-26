@@ -4,14 +4,14 @@ import NotFound from './pages/NotFound';
 import Navbar from './components/Navbar';
 
 const App = () => {
-	return (
-		<Router>
-			<Navbar />
-			<Routes>
-				<Route path='/' element={<Startpage />} />
-				<Route path='*' element={<NotFound />} />
-			</Routes>
-		</Router>
-	);
+    return (
+        <Router>
+            <Navbar />
+            <Routes>
+                <Route path='/' element={<Startpage />} />
+                <Route path='*' element={<NotFound />} />
+            </Routes>
+        </Router>
+    );
 };
 export default App;
