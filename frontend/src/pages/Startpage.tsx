@@ -2,6 +2,7 @@ import About from '../components/About';
 import CodeSection from '../components/CodeSection';
 import Experience from '../components/Experience';
 import Hero from '../components/Hero';
+import Qualification from '../components/Qualification';
 
 const Startpage = () => {
     return (
@@ -10,6 +11,7 @@ const Startpage = () => {
             <About />
             <CodeSection />
             <Experience />
+            <Qualification />
         </section>
     );
 };
