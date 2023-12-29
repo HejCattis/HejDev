@@ -3,6 +3,7 @@ import CodeSection from '../components/CodeSection';
 import Contact from '../components/Contact';
 import CurrentWork from '../components/CurrentWork';
 import Experience from '../components/Experience';
+import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import Qualification from '../components/Qualification';
 import Review from '../components/Review';
@@ -18,6 +19,7 @@ const Startpage = () => {
             <CurrentWork />
             <Contact />
             <Review />
+            <Footer />
         </section>
     );
 };
