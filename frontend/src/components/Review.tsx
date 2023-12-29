@@ -46,11 +46,11 @@ const Review = () => {
         },
     ];
     return (
-        <section id='qualification' className='my-10 max-w-5xl mx-auto'>
+        <section id='qualification' className='my-10 max-w-5xl mx-auto px-6 md:px-0'>
             <h2 className='font-semibold text-2xl my-4 text-center mb-10'>
                 Omdömen
             </h2>
-            <section className='bg-[#FDFCFC] shadow-md md:w-[500px] h-[200px] relative mx-auto flex justify-center items-center'>
+            <section className='bg-[#FDFCFC] shadow-md md:w-[500px] max-w-[500px] h-[250px] md:h-[200px] relative mx-auto flex justify-center items-center'>
                 <svg
                     className='h-10 absolute -top-5 -left-10'
                     xmlns='http://www.w3.org/2000/svg'
