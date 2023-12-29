@@ -6,12 +6,12 @@ const CurrentWork = () => {
         <React.Fragment>
             <section
                 id='qualification'
-                className='my-10 md:my-20 max-w-5xl mx-auto'
+                className='my-10 max-w-5xl mx-auto'
             >
                 <h2 className='font-semibold text-2xl my-4 text-center mb-10'>
                     LIA - Quiqly AB
                 </h2>
-                <section className='flex flex-col-reverse md:flex-row justify-center md:justify-around items-center'>
+                <section className='flex flex-col-reverse md:flex-row justify-center md:justify-around items-center lg:items-start'>
                     <div className="md:w-1/2 lg:w-2/3">
                         <div className="relative my-6 flex justify-center">
                             <svg
