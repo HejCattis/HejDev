@@ -5,6 +5,7 @@ import CurrentWork from '../components/CurrentWork';
 import Experience from '../components/Experience';
 import Hero from '../components/Hero';
 import Qualification from '../components/Qualification';
+import Review from '../components/Review';
 
 const Startpage = () => {
     return (
@@ -16,6 +17,7 @@ const Startpage = () => {
             <Qualification />
             <CurrentWork />
             <Contact />
+            <Review />
         </section>
     );
 };
