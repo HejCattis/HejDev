@@ -4,7 +4,7 @@ import { MdKeyboardArrowDown } from 'react-icons/md';
 const Hero = () => {
     return (
         <React.Fragment>
-            <section className='max-w-5xl mx-auto flex flex-col items-center mt-32 h-[65vh] md:h-full '>
+            <section id='cattis' className='max-w-5xl mx-auto flex flex-col items-center mt-32 h-[65vh] md:h-full '>
                 <div className='w-screen relative'>
                     <img
                         className='absolute -top-40 md:-top-72 -right-28 md:-right-52 -z-10 w-[450px] md:w-3/4 max-w-4xl'
