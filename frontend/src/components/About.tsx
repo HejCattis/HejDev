@@ -54,8 +54,7 @@ const About = () => {
                             Kontakta mig
                         </Link>
                         <a
-                            //FIXME
-                            href='/_src/Cattis Gustafsson CV LIA 2023 - SE.pdf'
+                            href='/Cattis_Gustafsson_CV.pdf'
                             download='Cattis_Gustafsson_CV_2023_SE'
                             className='btn w-[200px] '
                         >
