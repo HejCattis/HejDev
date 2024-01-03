@@ -1,5 +1,6 @@
 import React from 'react';
 import { MdKeyboardArrowDown } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
     return (
@@ -27,10 +28,12 @@ const Hero = () => {
                     </p>
                 </div>
             </section>
-            <MdKeyboardArrowDown
-                size={35}
-                className='mx-auto text-purple md:mt-28 lg:mt-48'
-            />
+            <Link to='#about'>
+                <MdKeyboardArrowDown
+                    size={35}
+                    className='mx-auto text-purple md:mt-28 lg:mt-48 cursor-pointer'
+                />
+            </Link>
         </React.Fragment>
     );
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import { MdKeyboardArrowDown } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const CurrentWork = () => {
     return (
@@ -43,10 +44,12 @@ const CurrentWork = () => {
                     </div>
                 </section>
             </section>
-             <MdKeyboardArrowDown
-             size={35}
-             className='mx-auto text-purple'
-                 />
+             <Link to='#contact'>
+                 <MdKeyboardArrowDown
+                 size={35}
+                 className='mx-auto text-purple cursor-pointer'
+                     />
+             </Link>
         </React.Fragment>
     );
 };
