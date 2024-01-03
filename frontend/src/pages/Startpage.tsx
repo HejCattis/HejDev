@@ -7,10 +7,12 @@ import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import Qualification from '../components/Qualification';
 import Review from '../components/Review';
+import ScrollToAnchor from '../components/ScrollToAnchor';
 
 const Startpage = () => {
     return (
-        <section className='mx-4 md:mx-10'>
+        <section className='overflow-hidden max-w-full'>
+            <ScrollToAnchor />
             <Hero />
             <About />
             <CodeSection />

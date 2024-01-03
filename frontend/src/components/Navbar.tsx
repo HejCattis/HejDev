@@ -8,9 +8,9 @@ const Navbar = () => {
                     {'<' + ' Cattis ' + '/>'}
                 </li>
                 <div className='flex justify-between w-fit gap-10 text-sm font-light text-purple'>
-                    <Link to=''>Om mig</Link>
-                    <Link to=''>Erfarenhet</Link>
-                    <Link to=''>Kontakta mig</Link>
+                    <Link to='#about'>Om mig</Link>
+                    <Link to='#experience'>Erfarenhet</Link>
+                    <Link to='#contact'>Kontakta mig</Link>
                 </div>
             </ul>
         </nav>

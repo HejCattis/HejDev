@@ -1,6 +1,6 @@
 const Qualification = () => {
     return (
-        <section id='qualification' className='my-10 md:my-20 max-w-5xl mx-auto'>
+        <section id='qualification' className='my-10 md:my-20 max-w-5xl mx-auto px-4 md:px-10'>
             <div className='flex justify-between items-center'>
                 <svg
                     className='w-5 h-5 -mt-6 md:w-8 md:h-8'

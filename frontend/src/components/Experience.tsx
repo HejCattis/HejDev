@@ -1,6 +1,6 @@
 const Experience = () => {
     return (
-        <section id='experience' className='mt-10 max-w-5xl mx-auto'>
+        <section id='experience' className='mt-10 max-w-5xl mx-auto px-4 md:px-10 scroll-my-20'>
             <h2 className='font-semibold text-2xl my-4 text-center mb-10'>
                 Erfarenhet
             </h2>

@@ -1,6 +1,6 @@
 const Contact = () => {
     return (
-        <section id='qualification' className='my-10 max-w-5xl mx-auto'>
+        <section id='contact' className='my-10 max-w-5xl mx-auto scroll-my-10'>
             <h2 className='font-semibold text-2xl my-4 text-center '>
                 Kontakta mig
             </h2>

@@ -4,11 +4,15 @@ import { MdKeyboardArrowDown } from 'react-icons/md';
 const Hero = () => {
     return (
         <React.Fragment>
-            <section className='max-w-5xl mx-auto flex flex-col items-center mt-32 h-[65vh] md:h-full'>
-                <div className='absolute -top-20 md:-top-32 w-[450px] md:w-2/3 -right-28 md:-right-52 max-w-3xl -z-10'>
-                    <img src='/BG.png' alt='hero image' />
+            <section className='max-w-5xl mx-auto flex flex-col items-center mt-32 h-[65vh] md:h-full '>
+                <div className='w-screen relative'>
+                    <img
+                        className='absolute -top-40 md:-top-72 -right-28 md:-right-52 -z-10 w-[450px] md:w-3/4 max-w-4xl'
+                        src='/BG.png'
+                        alt='hero image'
+                    />
                 </div>
-                <div className='w-full flex flex-col items-center justify-center md:items-start h-full'>
+                <div className='w-full flex flex-col items-center justify-center md:items-start h-full px-4 md:px-10'>
                     <h1 className='md:z-10 mb-4 md:mt-4 lg:mt-8'>
                         {'<'} Hej {'/>'}
                     </h1>
@@ -18,7 +22,7 @@ const Hero = () => {
                             Cattis Gustafsson
                         </strong>
                     </h2>
-                    <p className='text-center'>
+                    <p className='text-center text-lg'>
                         Fullstack webbutvecklare med en touch av designer.
                     </p>
                 </div>

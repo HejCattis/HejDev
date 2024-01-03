@@ -16,7 +16,7 @@ const CurrentWork = () => {
                         <div className="relative my-6 flex justify-center">
                             <svg
                                 xmlns='http://www.w3.org/2000/svg'
-                                className='absolute text-pink opacity-25 h-16 md:h-20 -top-7 -left-0'
+                                className='absolute text-pink opacity-25 h-16 md:h-20 -top-10 -left-0 md:-left-2'
                                 viewBox='0 0 24 24'
                             >
                                 <path

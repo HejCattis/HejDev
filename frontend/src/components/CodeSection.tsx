@@ -1,6 +1,6 @@
 const CodeSection = () => {
     return (
-        <div className='my-20'>
+        <div className='my-20 px-4 md:px-10'>
             <h2 className='font-semibold text-2xl my-4 text-center'>Om mig</h2>
             <section className='bg-neutral-700 relative max-w-5xl mx-auto rounded-lg'>
                 <div className='bg-neutral-600 flex gap-2 p-3 rounded-t-lg'>

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const About = () => {
     return (
-        <section id='about' className='mt-10 max-w-5xl mx-auto'>
+        <section id='about' className='mt-10 max-w-5xl mx-auto scroll-my-20'>
             <div className='flex flex-col md:flex-row md:justify-around md:items-start'>
                 <div className='flex justify-center '>
                     <svg
@@ -64,10 +64,10 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className='relative px-4 md:px-0 mt-4 md:mt-6 mx-auto lg:flex lg:items-center lg:justify-between'>
+            <div className='relative px-4 md:px-0 mt-4 md:mt-6 mx-auto lg:flex lg:items-center lg:justify-between '>
                 <svg
                     xmlns='http://www.w3.org/2000/svg'
-                    className='absolute text-pink opacity-25 h-20 -top-8 -left-4 md:-left-8 -z-10'
+                    className='absolute text-pink opacity-25 h-20 -top-10 left-0 md:left-6 lg:-left-8 xl:-left-10 -z-10'
                     viewBox='0 0 24 24'
                 >
                     <path
@@ -75,7 +75,7 @@ const About = () => {
                         d='m15 17l2-4h-4V6h7v7l-2 4h-3Zm-9 0l2-4H4V6h7v7l-2 4H6Z'
                     />
                 </svg>
-                <p className='mb-10 lg:mb-0 text-center lg:max-w-lg lg:text-left'>
+                <p className='mb-10 lg:mb-0 text-center lg:max-w-2xl lg:text-left'>
                     Jag är på <strong className='font-semibold'>jakt</strong>{' '}
                     efter ett företag i framkant som{' '}
                     <strong className='font-semibold'>
