@@ -11,7 +11,7 @@ import ScrollToAnchor from '../components/ScrollToAnchor';
 
 const Startpage = () => {
     return (
-        <section className='overflow-hidden max-w-full'>
+        <section className='overflow-hidden max-w-full' id='cattis'>
             <ScrollToAnchor />
             <Hero />
             <About />
