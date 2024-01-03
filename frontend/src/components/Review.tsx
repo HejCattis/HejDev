@@ -79,7 +79,7 @@ const Review = () => {
                     }`}
                     onClick={() => setPaqination(0)}
                 ></div>
-                <div
+                {/* <div
                     className={`cursor-pointer h-3 w-3 rounded-full ${
                         pagination === 1 ? 'bg-purple' : 'bg-gray-300'
                     }`}
@@ -90,7 +90,7 @@ const Review = () => {
                         pagination === 2 ? 'bg-purple' : 'bg-gray-300'
                     }`}
                     onClick={() => setPaqination(2)}
-                ></div>
+                ></div> */}
             </section>
         </section>
     );
